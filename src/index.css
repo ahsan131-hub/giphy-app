@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #282c34;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.my-container {
+  border-color: black;
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+.form-group {
+  background-color: transparent;
+}
+.fig {
+  background-color: rgb(90, 90, 90);
+  padding: 5px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.figCap {
+  display: block;
+  position: relative;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.loader {
+  display: block;
+  margin: 0 auto;
+  border-color: gray;
+}
+.pagination {
+  display: inline-block;
+  border: 1px solid rgb(33, 124, 209);
+  border-radius: 5px;
+}
+.pagnition-item:hover {
+  background-color: #d3d8e0;
+}
+.pagination > ul {
+  margin: 0px;
+  padding: 0px;
+}
+.pagnition-item {
+  list-style: none;
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
